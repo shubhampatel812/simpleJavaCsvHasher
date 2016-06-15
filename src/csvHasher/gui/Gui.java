@@ -36,7 +36,7 @@ public class Gui {
 		fFrame.add(fPanel);
 
 		// add buttons for file selection
-		JButton buttonforOlderFile = new JButton("CSV Datei auswählen");
+		JButton buttonforOlderFile = new JButton("CSV Date auswählen");
 		buttonforOlderFile.setAlignmentX(Component.CENTER_ALIGNMENT);
 		buttonforOlderFile.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
